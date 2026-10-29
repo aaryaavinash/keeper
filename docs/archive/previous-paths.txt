@@ -1,0 +1,28 @@
+// ORIGINAL (preserved, not deleted — disabled by comment): previous nested paths
+// import { Engine, THREE, normalize, prepModel, damp, clamp, smooth, lerp, studioEnvironment } from '../../src/core/engine.js';
+// import { Assets } from '../../src/core/assets.js';
+// import { Pointer } from '../../src/core/input.js';
+// import { smoothScroll, gsap, reveal, ScrollTrigger } from '../../src/core/scroll.js';
+// // ORIGINAL (preserved, not deleted — disabled by comment): import { preloader, cursor, magnetic, worldNav } from '../../src/core/ui.js';
+// import { preloader, cursor, magnetic } from '../../src/core/ui.js';
+// import { PlanarReflection } from '../../src/core/reflector.js';
+// import { bakeTexture, fbmNormal } from '../../src/core/textures.js';
+// const lhLoad = assets.gltf('models/keeper/lighthouse.glb').then(g => {
+// const boatLoad = assets.gltf('models/keeper/boat.glb').then(g => {
+// // ORIGINAL (preserved, not deleted — disabled by comment): worldNav('keeper', { theme: 'dark', corner: 'bl' });
+// import { THREE } from '../../src/core/engine.js';
+// import { THREE } from '../../src/core/engine.js';
+//             <figure><img src="/img/keeper/room-quarters.webp" alt="The keeper's quarters: a peat stove, a box bed and a small window onto the sea" loading="lazy" width="900" height="1125"></figure>
+//             <figure><img src="/img/keeper/room-fog.webp" alt="The fog signal room: a brass horn through the wall above a copper bath" loading="lazy" width="900" height="1125"></figure>
+//             <figure><img src="/img/keeper/room-watch.webp" alt="The watch room: a curved window seat, a brass telescope and old sea charts" loading="lazy" width="900" height="1125"></figure>
+//             <figure><img src="/img/keeper/room-lamp.webp" alt="The lamp room: a bed beside the great glass lens, with the sea on every side" loading="lazy" width="900" height="1125"></figure>
+// import { THREE, lerp } from '../../src/core/engine.js';
+//   <link rel="stylesheet" href="./examples/keeper/style.css">
+//   <script type="module" src="./examples/keeper/main.js"></script>
+// // ORIGINAL (preserved, not deleted — disabled by comment): import { preloader, cursor, magnetic, worldNav } from './core/ui.js';
+// // ORIGINAL (preserved, not deleted — disabled by comment): worldNav('keeper', { theme: 'dark', corner: 'bl' });
+// ORIGINAL (preserved, not deleted — disabled by comment): old root HTML image paths
+//             <figure><img src="/img/keeper/room-quarters.webp" alt="The keeper's quarters: a peat stove, a box bed and a small window onto the sea" loading="lazy" width="900" height="1125"></figure>
+//             <figure><img src="/img/keeper/room-fog.webp" alt="The fog signal room: a brass horn through the wall above a copper bath" loading="lazy" width="900" height="1125"></figure>
+//             <figure><img src="/img/keeper/room-watch.webp" alt="The watch room: a curved window seat, a brass telescope and old sea charts" loading="lazy" width="900" height="1125"></figure>
+//             <figure><img src="/img/keeper/room-lamp.webp" alt="The lamp room: a bed beside the great glass lens, with the sea on every side" loading="lazy" width="900" height="1125"></figure>

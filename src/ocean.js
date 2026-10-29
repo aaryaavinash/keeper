@@ -1,7 +1,7 @@
 // Gerstner-wave ocean: one wave set evaluated identically on the GPU (surface) and the CPU (boat buoyancy).
 // Shading is custom: fresnel sky + planar reflection, green subsurface in wave backs, crest/rock/wake foam,
 // and the lighthouse beams, lamp glint, lightning, flares and the dawn sun all light the water directly.
-import { THREE } from '../../src/core/engine.js';
+import { THREE } from './core/engine.js';
 
 // [direction (deg), wavelength, steepness at full storm, steepness at dawn]
 const WAVES = [

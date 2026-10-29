@@ -1,6 +1,6 @@
 // Sky dome: storm gradient → dawn, two racing cloud layers projected onto planes (perspective-correct),
 // a moon smothered by cloud, lightning that lights the cloud interiors, and a low sun at dawn.
-import { THREE } from '../../src/core/engine.js';
+import { THREE } from './core/engine.js';
 
 export function createSky() {
   const uniforms = {

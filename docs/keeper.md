@@ -1,8 +1,8 @@
-# 16 · The Keeper — "Hold the light against the storm"
+# The Keeper — "Hold the light against the storm"
 Brand: **The Keeper** — a four-room lighthouse hotel on a rock in the North Atlantic.
 
 ## Signature interaction
-Night, storm. The lighthouse (`models/keeper/lighthouse.glb`) stands on its rock in a violent sea: Gerstner-wave ocean
+Night, storm. The lighthouse (`models/lighthouse.glb`) stands on its rock in a violent sea: Gerstner-wave ocean
 (several waves, foam on crests and around the rock, green subsurface in wave backs, reflections), wind-driven rain streaks,
 lightning that flashes the scene for a few frames, low racing clouds. The lamp's beam rotates (VolumetricSpotEffect, twin
 beams, very visible in rain). **The cursor takes the beam**: moving the pointer grabs the rotating beam and aims it; a fishing

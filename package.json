@@ -1,7 +1,7 @@
 {
   "name": "keeper",
   "private": true,
-  "description": "Standalone The Keeper world from Dioramas.",
+  "description": "A lighthouse-hotel concept on a black rock in the North Atlantic.",
   "license": "MIT",
   "version": "0.1.0",
   "type": "module",

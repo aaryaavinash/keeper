@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;1,400&family=Karla:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./examples/keeper/style.css">
+  <link rel="stylesheet" href="./src/style.css">
 </head>
 <body>
   <canvas id="gl" aria-hidden="true"></canvas>
@@ -103,7 +103,7 @@
         </header>
         <div class="room-stage">
           <article class="room" data-room="0">
-            <figure><img src="/img/keeper/room-quarters.webp" alt="The keeper's quarters: a peat stove, a box bed and a small window onto the sea" loading="lazy" width="900" height="1125"></figure>
+            <figure><img src="/img/room-quarters.webp" alt="The keeper's quarters: a peat stove, a box bed and a small window onto the sea" loading="lazy" width="900" height="1125"></figure>
             <div class="room-text">
               <p class="room-meta"><span>I</span> Ground floor · Sleeps 2 · 24 m²</p>
               <h3>Keeper’s Quarters</h3>
@@ -112,7 +112,7 @@
             </div>
           </article>
           <article class="room" data-room="1">
-            <figure><img src="/img/keeper/room-fog.webp" alt="The fog signal room: a brass horn through the wall above a copper bath" loading="lazy" width="900" height="1125"></figure>
+            <figure><img src="/img/room-fog.webp" alt="The fog signal room: a brass horn through the wall above a copper bath" loading="lazy" width="900" height="1125"></figure>
             <div class="room-text">
               <p class="room-meta"><span>II</span> Seaward end · Sleeps 2 · 30 m²</p>
               <h3>The Fog Signal</h3>
@@ -121,7 +121,7 @@
             </div>
           </article>
           <article class="room" data-room="2">
-            <figure><img src="/img/keeper/room-watch.webp" alt="The watch room: a curved window seat, a brass telescope and old sea charts" loading="lazy" width="900" height="1125"></figure>
+            <figure><img src="/img/room-watch.webp" alt="The watch room: a curved window seat, a brass telescope and old sea charts" loading="lazy" width="900" height="1125"></figure>
             <div class="room-text">
               <p class="room-meta"><span>III</span> Level five · Sleeps 2 · 19 m²</p>
               <h3>The Watch</h3>
@@ -130,7 +130,7 @@
             </div>
           </article>
           <article class="room" data-room="3">
-            <figure><img src="/img/keeper/room-lamp.webp" alt="The lamp room: a bed beside the great glass lens, with the sea on every side" loading="lazy" width="900" height="1125"></figure>
+            <figure><img src="/img/room-lamp.webp" alt="The lamp room: a bed beside the great glass lens, with the sea on every side" loading="lazy" width="900" height="1125"></figure>
             <div class="room-text">
               <p class="room-meta"><span>IV</span> The top · Sleeps 2 · 16 m² · 118 steps</p>
               <h3>The Lamp Room</h3>
@@ -216,14 +216,6 @@
   </div>
   <div class="toast" role="status"></div>
 
-  <script type="module" src="./examples/keeper/main.js"></script>
+  <script type="module" src="./src/main.js"></script>
 </body>
 </html>
-
-<!-- ORIGINAL (preserved, not deleted — disabled by comment):
-<!doctype html>
-<meta charset="utf-8">
-<meta http-equiv="refresh" content="0; url=/examples/keeper/">
-<title>keeper</title>
-<a href="/examples/keeper/">Open keeper</a>
--->

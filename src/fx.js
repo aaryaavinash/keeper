@@ -1,6 +1,6 @@
 // Weather: wind-driven rain streaks that only exist where light finds them, spray that bursts off the
 // rock, distress flares, and fractal lightning bolts.
-import { THREE, lerp } from '../../src/core/engine.js';
+import { THREE, lerp } from './core/engine.js';
 
 const LIGHT_GLSL = /* glsl */`
   uniform vec3 uLamp, uBeamDir[2];

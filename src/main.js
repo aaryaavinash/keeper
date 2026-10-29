@@ -1,12 +1,11 @@
 import './tailwind.css';
-import { Engine, THREE, normalize, prepModel, damp, clamp, smooth, lerp, studioEnvironment } from '../../src/core/engine.js';
-import { Assets } from '../../src/core/assets.js';
-import { Pointer } from '../../src/core/input.js';
-import { smoothScroll, gsap, reveal, ScrollTrigger } from '../../src/core/scroll.js';
-// ORIGINAL (preserved, not deleted — disabled by comment): import { preloader, cursor, magnetic, worldNav } from '../../src/core/ui.js';
-import { preloader, cursor, magnetic } from '../../src/core/ui.js';
-import { PlanarReflection } from '../../src/core/reflector.js';
-import { bakeTexture, fbmNormal } from '../../src/core/textures.js';
+import { Engine, THREE, normalize, prepModel, damp, clamp, smooth, lerp, studioEnvironment } from './core/engine.js';
+import { Assets } from './core/assets.js';
+import { Pointer } from './core/input.js';
+import { smoothScroll, gsap, reveal, ScrollTrigger } from './core/scroll.js';
+import { preloader, cursor, magnetic } from './core/ui.js';
+import { PlanarReflection } from './core/reflector.js';
+import { bakeTexture, fbmNormal } from './core/textures.js';
 import { Waves, oceanGeometry, oceanMaterial } from './ocean.js';
 import { createSky } from './sky.js';
 import { BeamEffect } from './beams.js';
@@ -240,7 +239,7 @@ scene.add(lighthouse);
     lighthouse.add(b);
   }
 }
-const lhLoad = assets.gltf('models/keeper/lighthouse.glb').then(g => {
+const lhLoad = assets.gltf('models/lighthouse.glb').then(g => {
   const m = g.scene;
   normalize(m, LH_H, { axis: 'y' });
   m.position.y -= WATER_F * LH_H;
@@ -272,7 +271,7 @@ for (const s of Object.values(boatLights)) boat.group.add(s);
 const deckLight = new THREE.PointLight(0xffb866, 0, 9, 1.5);
 deckLight.position.set(0, 3.2, -0.6);
 boat.group.add(deckLight);
-const boatLoad = assets.gltf('models/keeper/boat.glb').then(g => {
+const boatLoad = assets.gltf('models/boat.glb').then(g => {
   const m = g.scene;
   normalize(m, 5.4, { axis: 'x' });
   prepModel(m, renderer, { env: 0.7 });
@@ -895,7 +894,6 @@ engine.onTick((dt, t) => {
 
 // ─── Boot ─────────────────────────────────────────────────────────────────────
 const intro = { lamp: 0, done: false };
-// ORIGINAL (preserved, not deleted — disabled by comment): worldNav('keeper', { theme: 'dark', corner: 'bl' });
 magnetic();
 const lenis = smoothScroll({ lerp: 0.08 });
 document.querySelectorAll('a[href^="#"]').forEach(a => a.addEventListener('click', e => {
