@@ -1,8 +1,10 @@
+import './tailwind.css';
 import { Engine, THREE, normalize, prepModel, damp, clamp, smooth, lerp, studioEnvironment } from '../../src/core/engine.js';
 import { Assets } from '../../src/core/assets.js';
 import { Pointer } from '../../src/core/input.js';
 import { smoothScroll, gsap, reveal, ScrollTrigger } from '../../src/core/scroll.js';
-import { preloader, cursor, magnetic, worldNav } from '../../src/core/ui.js';
+// ORIGINAL (preserved, not deleted — disabled by comment): import { preloader, cursor, magnetic, worldNav } from '../../src/core/ui.js';
+import { preloader, cursor, magnetic } from '../../src/core/ui.js';
 import { PlanarReflection } from '../../src/core/reflector.js';
 import { bakeTexture, fbmNormal } from '../../src/core/textures.js';
 import { Waves, oceanGeometry, oceanMaterial } from './ocean.js';
@@ -893,7 +895,7 @@ engine.onTick((dt, t) => {
 
 // ─── Boot ─────────────────────────────────────────────────────────────────────
 const intro = { lamp: 0, done: false };
-worldNav('keeper', { theme: 'dark', corner: 'bl' });
+// ORIGINAL (preserved, not deleted — disabled by comment): worldNav('keeper', { theme: 'dark', corner: 'bl' });
 magnetic();
 const lenis = smoothScroll({ lerp: 0.08 });
 document.querySelectorAll('a[href^="#"]').forEach(a => a.addEventListener('click', e => {
